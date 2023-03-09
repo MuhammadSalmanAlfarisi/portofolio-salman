@@ -141,18 +141,30 @@ const Cards = () => {
               >
                 <ImGithub className="w-[30px] h-[30px]" />
               </a>
-              <a className="hover:scale-125 transition-all" href="https://steamcommunity.com/id/s4lm00n">
+              <a
+                className="hover:scale-125 transition-all"
+                href="https://steamcommunity.com/id/s4lm00n"
+              >
                 <ImSteam className="w-[30px] h-[30px]" />
               </a>
             </div>
             <div className="w-full justify-center gap-5 p-3 flex flex-row">
-              <a className="hover:scale-125 transition-all" href="https://instagram.com/msalman_af">
+              <a
+                className="hover:scale-125 transition-all"
+                href="https://instagram.com/msalman_af"
+              >
                 <ImInstagram className="w-[30px] h-[30px]" />
               </a>
-              <a className="hover:scale-125 transition-all" href="https://twitter.com/">
+              <a
+                className="hover:scale-125 transition-all"
+                href="https://twitter.com/"
+              >
                 <ImTwitter className="w-[30px] h-[30px]" />
               </a>
-              <a className="hover:scale-125 transition-all" href="https://pdfhost.io/v/LXs9psshx_Muhammad_Salman_Alfarisi_Frontend_Developer">
+              <a
+                className="hover:scale-125 transition-all"
+                href="https://pdfhost.io/v/LXs9psshx_Muhammad_Salman_Alfarisi_Frontend_Developer"
+              >
                 <TbPdf className="w-[30px] h-[30px]" />
               </a>
             </div>
@@ -185,10 +197,14 @@ const Cards = () => {
             transition={{ duration: 1.3, delay: 0.2 }}
             className="rounded-3xl shadow-lg border-l-gray-600 bg-white border-dashed border-l-4 h-[200px] overflow-hidden"
           >
-            <Spotify wide link="https://open.spotify.com/playlist/74clBi8Er3mAlibOQPRex1?si=12a8e79b88554ef8" className="h-[400px]"/>
+            <Spotify
+              wide
+              link="https://open.spotify.com/playlist/74clBi8Er3mAlibOQPRex1?si=12a8e79b88554ef8"
+              className="h-[400px]"
+            />
           </motion.div>
         </div>
-        
+
         <div className="container mx-auto grid lg:grid-cols-2 pt-4 gap-4">
           <motion.div
             initial={{ opacity: 0, x: -300 }}
@@ -232,7 +248,13 @@ const Cards = () => {
       </div>
       {/* mobile view */}
       <div className="mobile-viewer lg:hidden w-full overflow-auto">
-        <p>KONTOLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL</p>
+        <TypeAnimation
+          sequence={["Muhammad Salman Alfarisi", 3000]}
+          wrapper="div"
+          cursor={false}
+          repeat={Infinity}
+          className="text-[36px] hover:cursor-pointer"
+        />
       </div>
     </div>
   );
