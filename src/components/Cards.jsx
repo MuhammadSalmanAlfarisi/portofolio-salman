@@ -239,17 +239,17 @@ const Cards = () => {
                 <img
                   src="./src/assets/magjin.png"
                   alt=""
-                  className="w-[25%] border-2 border-gray-700 border-dashed rounded-md"
+                  className="w-[25%] h-fit border-2 border-gray-700 border-dashed rounded-md"
                 />
                 <img
                   src="./src/assets/intech.png"
                   alt=""
-                  className="w-[25%] border-2 border-gray-700 border-dashed rounded-md"
+                  className="w-[25%] h-fit border-2 border-gray-700 border-dashed rounded-md"
                 />
                 <img
                   src="./src/assets/spline.png"
                   alt=""
-                  className="w-[25%] border-2 border-gray-700 border-dashed rounded-md"
+                  className="w-[25%] h-fit border-2 border-gray-700 border-dashed rounded-md"
                 />
               </div>
             </div>
