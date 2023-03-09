@@ -1,6 +1,9 @@
 import { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
+import "./fonts/PixelOperator.ttf";
+import "./fonts/PixelOperator-Bold.ttf";
+
 import "./App.css";
 
 import Navbar from "./components/Navbar";
@@ -9,10 +12,10 @@ import Gallery from "./pages/Gallery";
 
 function App() {
 
-
+  
   return (
     <BrowserRouter>
-      <div className="w-full h-full flex flex-row justify-items-start ">
+      <div className="w-full h-full flex flex-row justify-items-start" >
         <div className="w-[50px] sm:w-[10px] flex-none z-10">
           <Navbar />
         </div>

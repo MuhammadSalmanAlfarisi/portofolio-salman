@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="ml-2 flex w-10 flex-col items-center space-y-10 py-6 ">
         <div className="space-y-16 rounded-md shadow-lg bg-white border-l-gray-500 border-l-4 border-dashed h-fit">
           <ul>
-            <li className="p-5">
+            <li key="1" className="p-5">
               <a href="/">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +22,7 @@ const Navbar = () => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-6 h-6 cursor-pointer text-gray-500 transition-all hover:text-gray-700 hover:scale-150"
+                  className="w-6 h-6 stroke-2 cursor-pointer text-gray-500 transition-all hover:text-gray-700 hover:scale-150"
                 >
                   <path
                     strokeLinecap="round"
@@ -33,7 +33,7 @@ const Navbar = () => {
               </a>
             </li>
 
-            <li className="p-5">
+            <li key="2" className="p-5">
               <a href="/blog">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +41,7 @@ const Navbar = () => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-6 h-6 cursor-pointer text-gray-500 transition-all hover:text-gray-700 hover:scale-150"
+                  className="w-6 h-6 stroke-2  cursor-pointer text-gray-500 transition-all hover:text-gray-700 hover:scale-150"
                 >
                   <path
                     strokeLinecap="round"
@@ -51,7 +51,7 @@ const Navbar = () => {
                 </svg>
               </a>
             </li>
-            <li className="p-5">
+            <li key="3" className="p-5">
               <a href="/gallery">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ const Navbar = () => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-6 h-6 cursor-pointer text-gray-500 transition-all hover:text-gray-700 hover:scale-150"
+                  className="w-6 h-6 stroke-2 cursor-pointer text-gray-500 transition-all hover:text-gray-700 hover:scale-150"
                 >
                   <path
                     strokeLinecap="round"
@@ -82,7 +82,7 @@ const Navbar = () => {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-6 h-6 cursor-pointer text-gray-500 transition-all hover:text-gray-700 hover:scale-150"
+              className="w-6 h-6 stroke-2 cursor-pointer text-gray-500 transition-all hover:text-gray-700 hover:scale-150"
             >
               <path
                 strokeLinecap="round"
