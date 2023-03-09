@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  font-family: "PixelOperator", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "PixelOperator"
   line-height: 1.5;
   font-weight: 400;
 
