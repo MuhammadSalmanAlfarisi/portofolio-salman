@@ -237,19 +237,19 @@ const Cards = () => {
               <p className="text-lg font-bold">Projects</p>
               <div className="flex flex-row gap-3 items-center justify-center">
                 <img
-                  src="./src/assets/magjin.png"
+                  src="https://i.postimg.cc/w1bC2Zm0/spline.png"
                   alt=""
-                  className="w-[25%] h-fit border-2 border-gray-700 border-dashed rounded-md"
+                  className="w-[30%] h-full border-2 border-gray-700 border-dashed rounded-md"
                 />
                 <img
-                  src="./src/assets/intech.png"
+                  src="https://i.postimg.cc/cKgVbh7Z/magjin.png"
                   alt=""
-                  className="w-[25%] h-fit border-2 border-gray-700 border-dashed rounded-md"
+                  className="w-[30%] h-full border-2 border-gray-700 border-dashed rounded-md"
                 />
                 <img
-                  src="./src/assets/spline.png"
-                  alt=""
-                  className="w-[25%] h-fit border-2 border-gray-700 border-dashed rounded-md"
+                  src="https://i.postimg.cc/f3G6nd5d/intech.png"
+                  alt="img"
+                  className="w-[30%] h-full border-2 border-gray-700 border-dashed rounded-md"
                 />
               </div>
             </div>
@@ -371,13 +371,25 @@ const Cards = () => {
             className="mySwiper h-[130px] w-[250px] md:w-[500px] md:h-[250px] flex  items-center justify-center rounded-2xl shadow-xl border-2 border-gray-700 border-dashed"
           >
             <SwiperSlide>
-              <img src="./src/assets/magjin.png" alt="" className="w-full" />
+              <img
+                src="https://i.postimg.cc/w1bC2Zm0/spline.png"
+                alt=""
+                className="w-full"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="./src/assets/intech.png" alt="" className="w-full" />
+              <img
+                src="https://i.postimg.cc/cKgVbh7Z/magjin.png"
+                alt=""
+                className="w-full"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="./src/assets/spline.png" alt="" className="w-full" />
+              <img
+                src="https://i.postimg.cc/f3G6nd5d/intech.png"
+                alt=""
+                className="w-full"
+              />
             </SwiperSlide>
           </Swiper>
         </motion.div>
@@ -400,13 +412,25 @@ const Cards = () => {
             className="mySwiper h-[130px] w-[250px] md:w-[500px] md:h-[250px] flex  items-center justify-center rounded-2xl shadow-xl border-2 border-gray-700 border-dashed"
           >
             <SwiperSlide>
-              <img src="./src/assets/magjin.png" alt="" className="w-full" />
+              <img
+                src="https://i.postimg.cc/w1bC2Zm0/spline.png"
+                alt=""
+                className="w-full"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="./src/assets/intech.png" alt="" className="w-full" />
+              <img
+                src="https://i.postimg.cc/cKgVbh7Z/magjin.png"
+                alt=""
+                className="w-full"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="./src/assets/spline.png" alt="" className="w-full" />
+              <img
+                src="https://i.postimg.cc/f3G6nd5d/intech.png"
+                alt=""
+                className="w-full"
+              />
             </SwiperSlide>
           </Swiper>
         </motion.div>
