@@ -42,14 +42,14 @@ const Cards = () => {
             initial={{ opacity: 0, y: -100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
-            className="rounded-3xl w-max  z-10 shadow-lg border-l-gray-600 bg-white  border-dashed border-l-4 h-[200px] hover:bg-red"
+            className="rounded-3xl  z-10 shadow-lg border-l-gray-600 bg-white  border-dashed border-l-4 h-[200px]"
           >
             <div className="flex flex-row justify-between items-center h-full">
               <div className=" transition-all hover:cursor-default w-fit ml-6 rounded-lg border-dashed border-l-gray-500 border-l-4">
                 <img
                   src="https://avatars.githubusercontent.com/u/116475964?v=4"
                   alt="profile"
-                  className="rounded-md w-[170px]  "
+                  className="rounded-md w-[170px] h-auto  "
                 />
               </div>
               <div className="p-[10px]">
