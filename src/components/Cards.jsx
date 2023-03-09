@@ -37,12 +37,12 @@ const Cards = () => {
     // desktop view
     <div className="w-[60vw]">
       <div className="desktop-viewer hidden lg:block">
-        <div className="container mx-auto grid lg:grid-cols-4 pt-4 gap-4">
+        <div className="flex flex-row w-max">
           <motion.div
             initial={{ opacity: 0, y: -100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
-            className="rounded-3xl  z-10 shadow-lg border-l-gray-600 bg-white  border-dashed border-l-4 h-[200px]"
+            className="rounded-3xl  z-10 shadow-lg border-l-gray-600 bg-white  border-dashed border-l-4 h-[200px] w-[300px]"
           >
             <div className="flex flex-row justify-between items-center h-full">
               <div className=" transition-all hover:cursor-default w-fit ml-6 rounded-lg border-dashed border-l-gray-500 border-l-4">
@@ -53,20 +53,7 @@ const Cards = () => {
                 />
               </div>
               <div className="p-[10px]">
-                <p className="rotate-90 tracking-[10px]">
-                  ᚻᛖᚣ
-                  {/* <ul>
-                  <li>
-                    <VscTwitter className="h-6 w-6 my-4 hover:scale-125 hover:cursor-pointer" />
-                  </li>
-                  <li>
-                    <VscGithubAlt className="h-6 w-6 my-4 hover:scale-125 hover:cursor-pointer" />
-                  </li>
-                  <li>
-                    <VscCallIncoming className="h-6 w-6 my-4 hover:scale-125 hover:cursor-pointer" />
-                  </li>
-                </ul> */}
-                </p>
+                <p className="rotate-90 tracking-[10px]">ᚻᛖᚣ</p>
               </div>
             </div>
           </motion.div>
@@ -74,19 +61,19 @@ const Cards = () => {
             initial={{ opacity: 0, x: 300 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1.3 }}
-            className="rounded-3xl overflow-hidden border-l-gray-600 grid-cols-2 col-span-2 h-[200px]"
+            className="rounded-3xl border-l-gray-600 grid-cols-2 col-span-2 h-[200px]"
           >
-            <div className="flex flex-row justify-center items-center h-full w-[550px]">
+            <div className="flex flex-row pl-11 items-center h-full w-[550px]">
               <div className="flex flex-col">
-                <p className="text-left font-bold text-[29px]">
+                <p className="text-left font-bold text-2xl">
                   Wake up traveler!
                 </p>
-                <div className="border-t-gray-400 border-dashed border-[3px] h-[1px] w-[400px]" />
+                <div className="border-t-gray-400 border-dashed border-[3px] h-[1px] w-[50%]" />
                 <p
                   variants={navVariants}
                   initial="hidden"
                   whileinview="show"
-                  className="text-left text-[19px]"
+                  className="text-left text-[1rem]"
                 >
                   My name is Salman, I am a{" "}
                   <span>
@@ -106,12 +93,12 @@ const Cards = () => {
                       wrapper="span"
                       cursor={true}
                       repeat={Infinity}
-                      className="text-[19px] font-bold"
+                      className="text-[1rem] font-bold"
                     />
                   </span>
                   <br />A 3rd year student at{" "}
                   <span className="font-semibold">
-                    University of Diponegoro, Semarang
+                    University of Diponegoro
                   </span>
                 </p>
               </div>
