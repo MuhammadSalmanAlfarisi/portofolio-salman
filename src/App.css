@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'PixelOperator';
+  font-style: normal;
+  font-weight: normal;
+  src: url("./src/fonts/PixelOperator.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'PixelOperator';
+  font-style: normal;
+  font-weight: bold;
+  src: url("./src/fonts/PixelOperator-Bold.ttf") format("truetype");
+}
+
+#root {
+  width: 100%;
+  margin: 0 5vw;
+  padding: 0 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f9f9f9;
+}
+
+@media (max-width: 600px) {
+  #root {
+    margin: 0 1vw;
+
+  }
+}
